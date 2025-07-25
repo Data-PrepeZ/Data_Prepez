@@ -28,15 +28,16 @@ Data-Prepez is an open-source Python library designed to simplify and accelerate
 For now, clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Data-Prepez.git
+https://github.com/Data-PrepeZ/Data_Prepez.git
 cd Data-Prepez
 pip install -r requirements.txt
+```
 
+---
 
 ## ⚡ Quick Start
-python
-Copy
-Edit
+
+```python
 from dataprepez import AutoPreprocessor
 import pandas as pd
 
@@ -48,55 +49,82 @@ prep = AutoPreprocessor(target='target_column', type='tabular')
 
 # Run preprocessing
 X_clean, y = prep.fit_transform(df)
-🧪 Example Notebooks
-Check out the examples/ folder:
+```
 
-🧹 tabular_demo.ipynb
+---
 
-📝 nlp_cleaning.ipynb
+## 🧪 Example Notebooks
 
-📈 timeseries_demo.ipynb (coming soon)
+Check out the [examples/](examples/) folder:
+- 🧹 `tabular_demo.ipynb` – Basic tabular preprocessing
+- 📝 `nlp_cleaning.ipynb` – NLP cleaning pipeline *(coming soon)*
+- 📈 `timeseries_demo.ipynb` – Time series preprocessing *(coming soon)*
 
-🗂️ Project Structure
-arduino
-Copy
-Edit
+---
+
+## 🗂️ Project Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```
 Data-Prepez/
 ├── dataprepez/
 │   ├── tabular/
+│   │   ├── __init__.py
 │   ├── nlp/
+│   │   ├── __init__.py
 │   ├── timeseries/
+│   │   ├── __init__.py
 │   ├── core/
-│   └── utils/
+│   │   ├── __init__.py
+│   │   └── preprocessor.py
+│   └── __init__.py
 ├── tests/
+│   └── test_preprocessor.py
 ├── examples/
+│   └── tabular_demo.ipynb
 ├── README.md
 ├── setup.py
 ├── requirements.txt
 └── LICENSE
-🤝 Contributing
-We welcome contributions from the community!
+```
+
+</details>
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community!  
 To contribute:
 
-Fork this repository
+1. Fork this repository  
+2. Create your feature branch: `git checkout -b feature/YourFeature`  
+3. Commit your changes: `git commit -m "Add your feature"`  
+4. Push to the branch: `git push origin feature/YourFeature`  
+5. Open a pull request 🎉
 
-Create your feature branch: git checkout -b feature/YourFeature
+---
 
-Commit your changes: git commit -m "Add your feature"
+## 👥 Team
 
-Push to the branch: git push origin feature/YourFeature
+- **Bala Mosay J** – Team Lead, Core Developer  
+- **Allwyn Jeffo Raj A** – NLP Module Developer  
+- **Rasik R** – Time Series & Testing  
 
-Open a pull request 🎉
+---
 
-👥 Team
-Bala Mosay J – Team Lead, Core Developer
+## 📄 License
 
-Allwyn Jeffo Raj A. – NLP Module Developer
+This project is licensed under the [MIT License](LICENSE).
 
-Jaiprasanth M. – Time Series & Testing
+---
 
-📄 License
-This project is licensed under the MIT License.
+## 🌟 Show Your Support
 
-🌟 Show Your Support
 If you like this project, please ⭐ star this repository and share it with others!
+
+---
+
+> _Clean your data, prep it like a pro — with **Data-Prepez**_
