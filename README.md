@@ -111,7 +111,7 @@ To contribute:
 
 - **Bala Mosay J** – Team Lead, Core Developer  
 - **Allwyn Jeffo Raj A** – NLP Module Developer  
-- **Rasik R** – Time Series & Testing  
+- **Rasik S** – Time Series & Testing  
 
 ---
 
