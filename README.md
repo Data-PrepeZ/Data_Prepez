@@ -33,7 +33,7 @@ cd Data-Prepez
 pip install -r requirements.txt
 
 
-⚡ Quick Start
+## ⚡ Quick Start
 python
 Copy
 Edit
